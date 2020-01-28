@@ -1,0 +1,6 @@
+<!doctype html><html dir="ltr" lang="en"><head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0"> <title>Stencil Component Starter</title>  <link rel="modulepreload" href="/build/p-fa95141f.js"><link rel="modulepreload" href="/build/p-htfyrte7.entry.js"><script nomodule="" src="/build/cat-gif-stencil.js"></script> </head> <body> <input id="keywords" onchange="updateKeywords(this.value)" type="text" placeholder="Keywords"> <hr> <cat-gif keyword="hat" id="first"></cat-gif> <script>// Interact from outside the custom element!
+    const gif = document.querySelector('#first');
+
+    function updateKeywords(keywords) {
+      gif.setAttribute('keyword', keywords);
+    }</script> <script type="module" data-resources-url="/build/" data-stencil-namespace="cat-gif-stencil">import{p as a,b as i}from"/build/p-fa95141f.js";a().then(a=>i([["p-htfyrte7",[[1,"cat-gif",{keyword:[1],images:[32],imageUrl:[32]},[[2,"click","handleClick"]]]]]],a));</script></body></html>

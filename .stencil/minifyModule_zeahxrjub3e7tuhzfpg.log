@@ -1,0 +1,1 @@
+System.register(["./p-f83d703e.system.js"],(function(){"use strict";var e,t;return{setters:[function(n){e=n.p;t=n.b}],execute:function(){e().then((function(e){return t([["p-qtgwqwcy.system",[[1,"cat-gif",{keyword:[1],images:[32],imageUrl:[32]},[[2,"click","handleClick"]]]]]],e)}))}}}));

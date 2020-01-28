@@ -1,0 +1,14 @@
+import { registerInstance as __stencil_registerInstance } from "@stencil/core";
+import { h } from "@stencil/core";
+export const CatGif = class {
+    constructor(hostRef) {
+        __stencil_registerInstance(this, hostRef);
+    }
+    fetchGifs() {
+        return []; // Array of images from giphy
+    }
+    render() {
+        return h("img", { src: "", alt: `Cat${this.keyword && ' ' + this.keyword} gif` });
+    }
+    static get style() { return "STYLE_TEXT_PLACEHOLDER:cat-gif"; }
+};
